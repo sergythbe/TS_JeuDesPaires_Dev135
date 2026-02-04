@@ -4,6 +4,7 @@ const gameSet = ["❤️", "💕", "🙌", "😘", " 🤣", " 🤷‍♂️", "�
 
 
 document.addEventListener("DOMContentLoaded", loadCards())
+btnJeu.addEventListener("click", shuffleCards)
 
 function createCard(nbreCarte) {
     for (i = 0; i < nbreCarte; i++) {
